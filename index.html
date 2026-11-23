@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>University Club Portal | Marwa</title>
+</head>
+<body>
+
+  <header>
+    <h1>University Club Portal</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#join">Join</a>
+      <a href="#events">Events</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="https://picsum.photos/300" alt="Student standing on campus">
+      <p>Hello, I am Marwa. I am a second-year IT student.</p>
+      <p>I am learning web development step by step.</p>
+      <a href="https://developer.mozilla.org/">Learn web development</a>
+
+      <h3>My Interests</h3>
+      <ul>
+        <li>Technology</li>
+        <li>Design</li>
+        <li>Programming</li>
+      </ul>
+
+      <h3>Clubs I Want to Explore</h3>
+      <ul>
+        <li>Robotics Club</li>
+        <li>Programming Club</li>
+        <li>Media Club</li>
+      </ul>
+    </section>
+
+    <section id="join">
+      <h2>Join a University Club</h2>
+      <form action="#" method="post">
+
+        <div>
+          <label for="full-name">Full name</label>
+          <input id="full-name" name="fullName" type="text" required>
+        </div>
+
+        <div>
+          <label for="email">University email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+
+        <div>
+          <label for="club">Choose a club</label>
+          <select id="club" name="club" required>
+            <option value="">Select a club</option>
+            <option value="robotics">Robotics Club</option>
+            <option value="programming">Programming Club</option>
+            <option value="media">Media Club</option>
+          </select>
+        </div>
+
+        <fieldset>
+          <legend>Membership type</legend>
+          <label>
+            <input type="radio" name="membership" value="active" required>
+            Active member
+          </label>
+          <label>
+            <input type="radio" name="membership" value="volunteer">
+            Volunteer
+          </label>
+        </fieldset>
+
+        <div>
+          <label for="reason">Why do you want to join?</label>
+          <textarea id="reason" name="reason" rows="4"></textarea>
+        </div>
+
+        <button type="submit">Send application</button>
+      </form>
+    </section>
+
+    <section id="events">
+      <h2>Event Timetable</h2>
+      <table border="1">
+        <caption>Upcoming club events</caption>
+        <thead>
+          <tr>
+            <th>Event</th>
+            <th>Club</th>
+            <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Robotics Intro</td>
+            <td>Robotics Club</td>
+            <td>10 Dec</td>
+          </tr>
+          <tr>
+            <td>Web Workshop</td>
+            <td>Programming Club</td>
+            <td>15 Dec</td>
+          </tr>
+          <tr>
+            <td>Photography Day</td>
+            <td>Media Club</td>
+            <td>20 Dec</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>University Club Portal</p>
+  </footer>
+
+</body>
+</html>
